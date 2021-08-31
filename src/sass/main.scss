@@ -1,8 +1,3 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
-
 // Base
 @import './base/common';
 @import './base/container';
@@ -14,6 +9,3 @@
 // Utils
 @import './utils/mixins';
 @import './utils/variables';
-
-// Стили для файла с примером HTML-фрагмента
-@import './example';
