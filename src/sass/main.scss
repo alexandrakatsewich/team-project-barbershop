@@ -1,11 +1,15 @@
+// Utils
+@import './utils/mixins';
+@import './utils/variables';
+
 // Base
 @import './base/common';
 @import './base/container';
 
 // Components
+@import './components/title';
+@import './components/line';
+@import './components/button.scss';
 
 // Layout
-
-// Utils
-@import './utils/mixins';
-@import './utils/variables';
+@import './layout/about';

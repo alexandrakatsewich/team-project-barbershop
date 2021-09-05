@@ -1,0 +1,10 @@
+.line {
+  &::before {
+    display: block;
+    content: '';
+
+    width: 60px;
+    height: 1px;
+    background: var(--title-color);
+  }
+}
