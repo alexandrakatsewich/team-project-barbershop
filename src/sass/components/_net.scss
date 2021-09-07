@@ -1,0 +1,44 @@
+.net {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .net__item {
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+      }
+  }
+  
+  .net__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  
+    justify-content: center;
+    align-items: center;
+  
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+    }
+  } 
+  
+  .net__icon {
+    fill: $icon-fill;
+  
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .net__link:hover &,
+    .net__link:focus & {
+        fill: $white-color;
+    }
+  }
